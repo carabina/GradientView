@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42B5C5AA1F56F3FE00D34393"
-               BuildableName = "GradientView.framework"
-               BlueprintName = "GradientView"
-               ReferencedContainer = "container:GradientView.xcodeproj">
+               BlueprintIdentifier = "6E09FEA40953F4CDF4B2263F01A8120A"
+               BuildableName = "Pods_GradientView.framework"
+               BlueprintName = "Pods-GradientView"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42B5C5B31F56F3FE00D34393"
-               BuildableName = "GradientViewTests.xctest"
-               BlueprintName = "GradientViewTests"
-               ReferencedContainer = "container:GradientView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42B5C5AA1F56F3FE00D34393"
-            BuildableName = "GradientView.framework"
-            BlueprintName = "GradientView"
-            ReferencedContainer = "container:GradientView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42B5C5AA1F56F3FE00D34393"
-            BuildableName = "GradientView.framework"
-            BlueprintName = "GradientView"
-            ReferencedContainer = "container:GradientView.xcodeproj">
+            BlueprintIdentifier = "6E09FEA40953F4CDF4B2263F01A8120A"
+            BuildableName = "Pods_GradientView.framework"
+            BlueprintName = "Pods-GradientView"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42B5C5AA1F56F3FE00D34393"
-            BuildableName = "GradientView.framework"
-            BlueprintName = "GradientView"
-            ReferencedContainer = "container:GradientView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

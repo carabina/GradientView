@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422B793A1F56F532008657F0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B79391F56F532008657F0 /* GradientView.swift */; };
 		42B5C5B51F56F3FE00D34393 /* GradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B5C5AB1F56F3FE00D34393 /* GradientView.framework */; };
 		42B5C5BA1F56F3FF00D34393 /* GradientViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B5C5B91F56F3FF00D34393 /* GradientViewTests.swift */; };
 		42B5C5BC1F56F3FF00D34393 /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B5C5AE1F56F3FE00D34393 /* GradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A24EADD5BC47987100E26CD6 /* Pods_GradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096478ABCE9D06E801705A9 /* Pods_GradientView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4096478ABCE9D06E801705A9 /* Pods_GradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		422B79391F56F532008657F0 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		42B5C5AB1F56F3FE00D34393 /* GradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B5C5AE1F56F3FE00D34393 /* GradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		42B5C5AF1F56F3FE00D34393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42B5C5B41F56F3FE00D34393 /* GradientViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B5C5B91F56F3FF00D34393 /* GradientViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewTests.swift; sourceTree = "<group>"; };
 		42B5C5BB1F56F3FF00D34393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EED560DDA4D750A5DFC440 /* Pods-GradientView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientView.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientView/Pods-GradientView.release.xcconfig"; sourceTree = "<group>"; };
+		8F6BBA1A17A01B4DAC79F4C6 /* Pods-GradientView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradientView/Pods-GradientView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24EADD5BC47987100E26CD6 /* Pods_GradientView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +63,8 @@
 				42B5C5AD1F56F3FE00D34393 /* GradientView */,
 				42B5C5B81F56F3FF00D34393 /* GradientViewTests */,
 				42B5C5AC1F56F3FE00D34393 /* Products */,
+				CC90169A7CE9819D9E7DE063 /* Pods */,
+				AC2F46F54E4FBA2E3EE92CA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +80,7 @@
 		42B5C5AD1F56F3FE00D34393 /* GradientView */ = {
 			isa = PBXGroup;
 			children = (
+				422B79391F56F532008657F0 /* GradientView.swift */,
 				42B5C5AE1F56F3FE00D34393 /* GradientView.h */,
 				42B5C5AF1F56F3FE00D34393 /* Info.plist */,
 			);
@@ -84,6 +94,23 @@
 				42B5C5BB1F56F3FF00D34393 /* Info.plist */,
 			);
 			path = GradientViewTests;
+			sourceTree = "<group>";
+		};
+		AC2F46F54E4FBA2E3EE92CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4096478ABCE9D06E801705A9 /* Pods_GradientView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC90169A7CE9819D9E7DE063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BBA1A17A01B4DAC79F4C6 /* Pods-GradientView.debug.xcconfig */,
+				84EED560DDA4D750A5DFC440 /* Pods-GradientView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42B5C5BF1F56F3FF00D34393 /* Build configuration list for PBXNativeTarget "GradientView" */;
 			buildPhases = (
+				32C56A82DA1F703EB9F220C5 /* [CP] Check Pods Manifest.lock */,
 				42B5C5A61F56F3FE00D34393 /* Sources */,
 				42B5C5A71F56F3FE00D34393 /* Frameworks */,
 				42B5C5A81F56F3FE00D34393 /* Headers */,
 				42B5C5A91F56F3FE00D34393 /* Resources */,
+				3A890529A3F58CDF795EF920 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +177,7 @@
 				TargetAttributes = {
 					42B5C5AA1F56F3FE00D34393 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					42B5C5B31F56F3FE00D34393 = {
@@ -191,11 +221,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32C56A82DA1F703EB9F220C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A890529A3F58CDF795EF920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradientView/Pods-GradientView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42B5C5A61F56F3FE00D34393 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422B793A1F56F532008657F0 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +388,9 @@
 		};
 		42B5C5C01F56F3FF00D34393 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6BBA1A17A01B4DAC79F4C6 /* Pods-GradientView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -333,13 +402,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.GradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		42B5C5C11F56F3FF00D34393 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EED560DDA4D750A5DFC440 /* Pods-GradientView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -358,6 +430,7 @@
 		42B5C5C31F56F3FF00D34393 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GradientViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.GradientViewTests;
@@ -369,6 +442,7 @@
 		42B5C5C41F56F3FF00D34393 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GradientViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.GradientViewTests;
@@ -396,6 +470,7 @@
 				42B5C5C11F56F3FF00D34393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B5C5C21F56F3FF00D34393 /* Build configuration list for PBXNativeTarget "GradientViewTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +479,7 @@
 				42B5C5C41F56F3FF00D34393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
